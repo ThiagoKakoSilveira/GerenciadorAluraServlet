@@ -24,11 +24,18 @@ Bem vindo ao nosso gerenciador de Empresas! <br/>
 	<input type="submit" value="Enviar"/>
 </form>
 <br/>
-
+<form action="executa" method="post">
+	pesquise sobre as empresas cadastradas: 
+	<input type="text" name="filtro"/>
+	<input type="hidden" name="tarefa" value="BuscaEmpresa"/>
+	<input type="submit" value="Enviar"/>
+</form>
+<br/>
 <form action="executa" method="post">
 	<input type="hidden" name="tarefa" value="Logout"/>
 	<input type = "submit" value="Deslogar"/>
 
 </form>
+
 </body>
 </html>
